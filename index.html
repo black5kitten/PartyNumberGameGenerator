@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Party Number Game Generator</title>
+  </head>
+  <body>
+    <h3 id="numberFormat">
+      This small help will generate numbers for party number game.<br />
+      Say the number of people playing the game = 5 in each team.<br />
+      Enter the number 5 in inout box and click generate button.<br />
+      A 5 digit number will be genrated with digits ranging from 0-4.
+    </h3>
+    <input
+      type="number"
+      min="1"
+      placeholder="Players in 1 team"
+      id="playersInATeam"
+      name="minNum"
+    />
+
+    <button id="generatebtn">Generate</button>
+    <ul id="numberGenerated"></ul>
+
+    <script src="app.js"></script>
+  </body>
+</html>
